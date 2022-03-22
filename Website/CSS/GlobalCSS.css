@@ -1,0 +1,121 @@
+body{
+    box-sizing:border-box;
+    margin:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    display:flex;
+    position:relative;
+    justify-content: center;
+    list-style-type: none;
+    background-color: rgb(195, 207, 221);
+    overflow: hidden;
+    margin:0;
+    padding:0;
+    top:0;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1; /* this keeps the navbar pinned to top*/
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    height:60px;
+    align-items: flex-end;
+}
+
+.logoimg{
+    height:50px;
+    width:50px;
+    position:absolute;
+    left:10px;
+    bottom:0px;
+    margin-top: 5px;
+    margin-left:10px;
+    margin-bottom:5px;
+}
+ 
+.title{
+    display:flex;
+    justify-content: center;
+    font-family:Impact;
+    font-size:40px;
+    background-color: rgb(195, 207, 221);
+    color: rgb(48,110,186);
+    margin:0; 
+    padding-left:10px;
+    font-weight:normal;
+}
+.greentxt{
+    color:rgb(78, 174, 91);
+}
+a{
+    float:left;
+    padding:10px;
+    font-size:25px;
+    color: rgb(48,110,186);
+    text-decoration: none;
+    
+}
+
+.footer{
+    position:relative;
+    width:100%;
+    height:17vh;
+    background-color: rgb(48,110,186);
+}
+.footlist{
+    display:flex;
+    flex-wrap: wrap;
+    position:absolute;
+    top:40%;
+    left:50%;
+    width:90%;
+    transform: translate(-50%, -50%);
+    display:flex;
+    justify-content: center;
+    list-style-type:none;
+}
+
+.footlist > li > a {
+    color: rgb(195, 207, 221);
+    font-size:15px;
+}
+.footlist >li >a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+.video{
+    width:560px;
+}
+@media(max-width:1300px){
+    .card{
+        margin-bottom: 30px;
+    }
+} 
+@media(max-width:864px){ /*For Cards*/
+    .card{
+        margin-bottom:10px;
+    }
+    .cardcontainer{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+} 
+@media(max-width:1000px){
+    a{
+        font-size: 20px;
+    }
+    
+} 
+@media(max-width:850px){
+    a{
+        font-size: 15px;
+    }
+   
+} 
+@media(max-width:700px){
+    a{
+        font-size: 10px;
+    }
+  
+    .video{
+        width:420px;
+    }
+} 

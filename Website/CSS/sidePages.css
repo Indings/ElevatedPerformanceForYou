@@ -1,0 +1,26 @@
+.bannertitle{
+    box-sizing: border-box;
+    width:100%;
+    height:20vh;
+    background-color: rgb(21, 73, 138);
+    font-size: 5em;
+    color:rgb(195, 207, 221);
+    padding-top:50px;
+    padding-left:5%;
+}
+.contentcontainer{
+    width:100%;
+    height:70vh;
+    background-color: rgb(195, 207, 221);
+}
+@media(max-width:900px){
+    .bannertitle{
+        height:17vh;
+    }
+} 
+
+@media(max-width:600px){
+    .bannertitle{
+        height:15vh;
+    }
+} 
