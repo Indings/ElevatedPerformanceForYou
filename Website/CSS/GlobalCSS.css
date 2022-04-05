@@ -126,10 +126,10 @@ a{
 .dropdownItem {
     display: none;
     position: absolute;
-    bottom:-100px;
+    bottom:-150px;
     background-color: rgb(195, 207, 221);
     min-width: 160px;
-    height:100px;
+    height:150px;
     box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
     z-index:1;
 }
@@ -156,7 +156,9 @@ a{
 }
 .video{
     border:none;
+    
 }
+
 
 @media(max-width:1300px){
     .card{

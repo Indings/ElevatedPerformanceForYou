@@ -1,0 +1,12 @@
+.linksContainer{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(195, 207, 221); 
+    min-height: 60vh;
+}
+.socialimg{
+    
+    
+    width:100%;
+    height:400px;
+}

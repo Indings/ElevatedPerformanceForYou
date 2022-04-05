@@ -111,5 +111,13 @@ a:hover{
     height:80vh;
     background-color: rgb(195, 207, 221);
 }
+.homepageVideo{
+    position: absolute; 
+    left:50%;
+    top:55%;
+    transform: translate(-50%, -50%);
+    width:400px;
+    height:300px;
+}
 
 
