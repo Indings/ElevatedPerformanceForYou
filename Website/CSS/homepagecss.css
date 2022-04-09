@@ -4,7 +4,7 @@
     font-family:Impact;
     position:absolute;
     left:50%;
-    top:22%;
+    top:10%;
     transform: translate(-50%, -50%);
     color: rgb(48,110,186);
     margin:0;
@@ -116,7 +116,7 @@ a:hover{
     left:50%;
     top:55%;
     transform: translate(-50%, -50%);
-    width:400px;    
+    width:700px;    
 }
 .header{
     padding-top:50px;
