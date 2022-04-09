@@ -55,6 +55,13 @@ a{
     text-decoration: none;
     
 }
+a:visited{
+    color: rgb(48,110,186);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(48,110,186,.651);
+}
 
 .footer{
     position:relative;
