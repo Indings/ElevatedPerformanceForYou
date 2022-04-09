@@ -1,24 +1,21 @@
 .contentcontainer{
     display:flex;
+    flex-wrap:wrap;
     justify-content: space-evenly;
 }
 .texthalf{
-    width: 43vw;
+    width: 800px;
     min-height: 40vh;
     margin-top: 30px;
     text-align: left;
     border-radius: 15px;
 }
 .imagehalf{
-    width: 43vw;
+    display:flex;
+    flex-wrap:wrap;
+    width: 800px;
     min-height: 40vh;
     margin-top: 30px;
-}
-.bgimg{
-    height:100vh;
-    width:100%;
-    border-radius:15px;
-    
 }
 .aboutustitle{
     padding-top: 50px;
@@ -29,6 +26,23 @@
     text-align: center;
     
 }
+.bgimg{
+
+}
+
 u{
     text-underline-offset: 5px;
+}
+@media(max-width:1632px){
+    /* .bgimg{
+        height:300px;
+    } */
+}
+@media(max-width:830px){
+    .bgimg{
+        height:300px;
+    }
+    .texthalf{
+        font-size: 25px;
+    }
 }
