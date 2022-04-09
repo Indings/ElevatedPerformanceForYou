@@ -22,13 +22,7 @@ a{
     text-decoration: none;
     
 }
-a:visited{
-    color: rgb(48,110,186);
-    text-decoration: none;
-}
-a:hover{
-    color: rgb(48,110,186,.651);
-}
+
 .bgimg{
     width:100%;
     height:70vh;
@@ -127,4 +121,20 @@ a:hover{
     background-color: rgb(195, 207, 221);
 }
 
+@media(max-width:800px){
+    .homepageVideo{
+        width:500px;
+    }
+    .imagetxt{
+        top:15%;
+    }
+}
+@media(max-width:600px){
+    .homepageVideo{
+        width:400px;
+    }
+    .imagetxt{
+        top:20%;
+    }
+}
 
