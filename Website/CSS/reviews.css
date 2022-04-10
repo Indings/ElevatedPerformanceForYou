@@ -1,0 +1,4 @@
+.contentcontainer{
+    display:flex;
+    flex-wrap:wrap;
+}
