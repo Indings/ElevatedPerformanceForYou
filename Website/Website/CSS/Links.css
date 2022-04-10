@@ -1,0 +1,14 @@
+.linksContainer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-color: rgb(195, 207, 221); 
+    
+}
+.jank{
+    float:none;
+}
+.socialimg{
+    width:100%;
+    height:400px;
+}
