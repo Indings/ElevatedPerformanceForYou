@@ -1,0 +1,8 @@
+.review{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:10px;
+    resize:none;
+    border-radius: 10px;
+    width:50%;
+    height:400px;
+}
